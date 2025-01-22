@@ -4,7 +4,7 @@ body {
   font-size: 12px;
   font-family: 'Kaisei Decol', serif;
   font-family: 'Kaisei Opti', serif;
-  background-color: rgb(251, 246, 176);
+  background-color: rgb(255, 255, 255);
 
 }
 
@@ -59,4 +59,11 @@ button:hover {
 button:active {
   transform: translateY(4px);
   box-shadow: 0 1px black;
+}
+
+.message{
+    font-size: 9px;
+    text-align: center;
+    margin: 20px;
+    color: black;
 }
