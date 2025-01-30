@@ -4,12 +4,12 @@ body {
   font-size: 12px;
   font-family: 'Kaisei Decol', serif;
   font-family: 'Kaisei Opti', serif;
-  background-color: rgb(255, 255, 255);
+  background-color: #33f8c051;
 
 }
 
 main {
-  width: 300px;
+  width: 280px;
   height: 250px;
   margin: 60px auto;
 }
@@ -18,8 +18,7 @@ section {
   height: 100%;
   border: 3px dotted rgb(255, 255, 255);
   text-align: center;
-  color: rgb(0, 0, 0);
-  background-color: rgb(70, 68, 61);
+  background-color: #0a92b4;
   border-radius: 50px;
 }
 
@@ -40,13 +39,13 @@ button {
   text-align: center;
   margin-top: 10px;
   width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: #ffffff;;
+  color: #393939;
   font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
   padding: 8px 0;
-  box-shadow: 2px 2px black;
+  box-shadow: 2px 2px #122c5762;;
   transition-property: border-radius;
   transition-duration: 1s;
 }
@@ -58,12 +57,12 @@ button:hover {
 
 button:active {
   transform: translateY(4px);
-  box-shadow: 0 1px black;
+  box-shadow: 0 1px #393939;
 }
 
 .message{
     font-size: 9px;
     text-align: center;
     margin: 20px;
-    color: black;
+    color: #393939;
 }
